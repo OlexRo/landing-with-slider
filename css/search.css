@@ -1,0 +1,78 @@
+#login {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background: #0E1012;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #161A1D;
+  padding: 20px;
+  border-radius: 20px;
+  width: 20%;
+  height: 75vh;
+}
+form h1 {
+  color: white;
+  font-size: 30px;
+  margin: 30px;
+  padding: 1vh;
+}
+form input {
+  background: rgba(14, 16, 18, 0);
+  margin: 20px;
+  outline: none;
+  padding: 1vh;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-bottom: 2px solid #007AFC;
+}
+form p {
+  color: white;
+  width: 80%;
+}
+form button {
+  padding: 1vh;
+  width: auto;
+  border-radius: 10vh;
+  border: none;
+  margin: 2vh;
+  background: #007AFC;
+  color: white;
+  font-size: 2vh;
+  font-weight: 600;
+  transition: all ease 0.5s;
+}
+form button a {
+  text-decoration: none;
+  color: white;
+}
+form button:hover {
+  transform: scale(1.05);
+}
+form .dop {
+  font-size: 15px;
+  text-align: center;
+  width: 60%;
+  color: #bbbfc7;
+}
+form #vk {
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  border: 2px solid #007AFC;
+  width: 45px;
+  height: 45px;
+}
+form #vk i {
+  color: white;
+  font-size: 35px;
+}/*# sourceMappingURL=search.css.map */

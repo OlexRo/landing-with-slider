@@ -1,0 +1,90 @@
+#sec-6 {
+  width: 100%;
+  height: 20%;
+  color: white;
+  padding: 25px;
+}
+#sec-6 #serch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#sec-6 #serch h1 {
+  font-size: 40px;
+  margin: 20px;
+}
+#sec-6 #serch #main_search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sec-6 #serch #main_search input {
+  padding: 1.5vh;
+  margin: 10px;
+  outline: none;
+  color: white;
+  border: none;
+  border-bottom: 2px solid #007AFC;
+  background: rgba(35, 39, 43, 0);
+}
+#sec-6 #serch #main_search input:nth-child(1) {
+  width: 900px;
+}
+#sec-6 #serch #main_search input[type=date] {
+  color: white;
+}
+#sec-6 #serch #main_search input[type=date]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  font-size: 2vh;
+}
+#sec-6 #serch #main_search button {
+  border: none;
+  padding: 2.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #007AFC;
+  color: white;
+  border-radius: 5vh;
+  height: 3.5vh;
+  transition: all ease 0.5s;
+}
+#sec-6 #serch #main_search button:hover {
+  transform: scale(1.05);
+}
+
+#sec-7 {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #0E1012;
+}
+#sec-7 #opis {
+  width: 30%;
+}
+#sec-7 #opis h1 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 2vh;
+}
+#sec-7 #opis p {
+  width: 50%;
+  color: #bbbfc7;
+  line-height: 4vh;
+}
+#sec-7 #opis button {
+  padding: 1vh;
+  width: 250px;
+  border: 2px solid rgb(65, 63, 63);
+  border-radius: 20px;
+  margin-top: 20px;
+  color: white;
+  background: rgba(0, 122, 252, 0);
+  transition: all ease 0.5s;
+}
+#sec-7 #opis button:hover {
+  border: 2px solid #007AFC;
+}/*# sourceMappingURL=turs.css.map */
